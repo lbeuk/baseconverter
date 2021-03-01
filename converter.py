@@ -82,7 +82,7 @@ try:
 
     if base_from > 36 or base_from < 2 or base_to > 36 or base_to < 2:
         print("Valid bases are only from 2 to 36")
-
+        exit(2)
     run()
 except:
     print("This only accepts integer inputs")
